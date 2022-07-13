@@ -55,15 +55,12 @@ const Login = () => {
                         control = {
                             <Checkbox 
                                 name='Checked'
-                                color='primary'>
+                                color='primary'
 
-                            </Checkbox>
+                            />}
+                            label = 'Remember me'
+                            /> 
 
-                        }>
-                            </FormControlLabel>
-
-                          label = 'remember me' 
-                        
                         <Button
                             type = "submit"
                             color= "primary"
